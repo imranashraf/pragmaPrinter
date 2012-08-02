@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<q2:profiles xmlns:q2="http://www.example.org/q2profiling" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/q2profiling q2profiling.xsd ">
+    <q2:application name="">
+        <q2:functions>
+            <q2:function name="Capture_RF">
+                <q2:metrics />
+                <q2:statistics>
+                    <q2:target name="i686">
+                        <q2:measurement name="calls" type="prediction" by="MAIP" unit="unknown">33</q2:measurement>
+                        <q2:measurement name="avg. instructions/call" type="prediction" by="MAIP" unit="unknown">15</q2:measurement>
+                        <q2:measurement name="Computational Contribution" type="runtime" by="MAIP" unit="unknown">3.50663e-06</q2:measurement>
+                        <q2:measurement name="Total # of Instructions executed" type="runtime" by="MAIP" unit="unknown">495</q2:measurement>
+                        <q2:measurement name="Total # of Memory Access Instructions executed" type="runtime" by="MAIP" unit="unknown">396</q2:measurement>
+                        <q2:measurement name="Total # of Stack Access Instructions executed" type="runtime" by="MAIP" unit="unknown">330</q2:measurement>
+                        <q2:measurement name="Total # of Heap Access Instructions executed" type="runtime" by="MAIP" unit="unknown">66</q2:measurement>
+                        <q2:measurement name="Total # of Memory reads" type="runtime" by="MAIP" unit="unknown">231</q2:measurement>
+                        <q2:measurement name="Total # of Stack reads" type="runtime" by="MAIP" unit="unknown">165</q2:measurement>
+                        <q2:measurement name="Total # of Heap reads" type="runtime" by="MAIP" unit="unknown">66</q2:measurement>
+                        <q2:measurement name="Total # of Memory writes" type="runtime" by="MAIP" unit="unknown">165</q2:measurement>
+                        <q2:measurement name="Total # of Stack writes" type="runtime" by="MAIP" unit="unknown">165</q2:measurement>
+                        <q2:measurement name="Total # of Heap writes" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes accessed" type="runtime" by="MAIP" unit="unknown">1584</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes accessed" type="runtime" by="MAIP" unit="unknown">1320</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes accessed" type="runtime" by="MAIP" unit="unknown">264</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes read" type="runtime" by="MAIP" unit="unknown">924</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes read" type="runtime" by="MAIP" unit="unknown">660</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes read" type="runtime" by="MAIP" unit="unknown">264</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes written" type="runtime" by="MAIP" unit="unknown">660</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes written" type="runtime" by="MAIP" unit="unknown">660</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes written" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Avg MAR Index" type="runtime" by="MAIP" unit="unknown">0.8</q2:measurement>
+                        <q2:measurement name="Avg Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.133333</q2:measurement>
+                        <q2:measurement name="Avg MOR Index" type="runtime" by="MAIP" unit="unknown">0.3</q2:measurement>
+                        <q2:measurement name="Avg Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.1</q2:measurement>
+                        <q2:measurement name="Avg Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.833333</q2:measurement>
+                        <q2:measurement name="Avg Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.166667</q2:measurement>
+                        <q2:measurement name="Avg Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="Avg Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Max MAR Index" type="runtime" by="MAIP" unit="unknown">0.8</q2:measurement>
+                        <q2:measurement name="Max Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.133333</q2:measurement>
+                        <q2:measurement name="Max MOR Index" type="runtime" by="MAIP" unit="unknown">0.3</q2:measurement>
+                        <q2:measurement name="Max Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.1</q2:measurement>
+                        <q2:measurement name="Max Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.833333</q2:measurement>
+                        <q2:measurement name="Max Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.166667</q2:measurement>
+                        <q2:measurement name="Max Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="Max Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Min MAR Index" type="runtime" by="MAIP" unit="unknown">0.8</q2:measurement>
+                        <q2:measurement name="Min Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.133333</q2:measurement>
+                        <q2:measurement name="Min MOR Index" type="runtime" by="MAIP" unit="unknown">0.3</q2:measurement>
+                        <q2:measurement name="Min Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.1</q2:measurement>
+                        <q2:measurement name="Min Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.833333</q2:measurement>
+                        <q2:measurement name="Min Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.166667</q2:measurement>
+                        <q2:measurement name="Min Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="Min Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                    </q2:target>
+                </q2:statistics>
+            </q2:function>
+            <q2:function name="Compute_CSD">
+                <q2:metrics />
+                <q2:statistics>
+                    <q2:target name="i686">
+                        <q2:measurement name="calls" type="prediction" by="MAIP" unit="unknown">33</q2:measurement>
+                        <q2:measurement name="avg. instructions/call" type="prediction" by="MAIP" unit="unknown">35265.6</q2:measurement>
+                        <q2:measurement name="Computational Contribution" type="runtime" by="MAIP" unit="unknown">0.00824423</q2:measurement>
+                        <q2:measurement name="Total # of Instructions executed" type="runtime" by="MAIP" unit="unknown">1.16377e+06</q2:measurement>
+                        <q2:measurement name="Total # of Memory Access Instructions executed" type="runtime" by="MAIP" unit="unknown">335759</q2:measurement>
+                        <q2:measurement name="Total # of Stack Access Instructions executed" type="runtime" by="MAIP" unit="unknown">119987</q2:measurement>
+                        <q2:measurement name="Total # of Heap Access Instructions executed" type="runtime" by="MAIP" unit="unknown">215772</q2:measurement>
+                        <q2:measurement name="Total # of Memory reads" type="runtime" by="MAIP" unit="unknown">275888</q2:measurement>
+                        <q2:measurement name="Total # of Stack reads" type="runtime" by="MAIP" unit="unknown">60150</q2:measurement>
+                        <q2:measurement name="Total # of Heap reads" type="runtime" by="MAIP" unit="unknown">215738</q2:measurement>
+                        <q2:measurement name="Total # of Memory writes" type="runtime" by="MAIP" unit="unknown">59871</q2:measurement>
+                        <q2:measurement name="Total # of Stack writes" type="runtime" by="MAIP" unit="unknown">59837</q2:measurement>
+                        <q2:measurement name="Total # of Heap writes" type="runtime" by="MAIP" unit="unknown">34</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes accessed" type="runtime" by="MAIP" unit="unknown">1.34467e+06</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes accessed" type="runtime" by="MAIP" unit="unknown">481190</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes accessed" type="runtime" by="MAIP" unit="unknown">863476</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes read" type="runtime" by="MAIP" unit="unknown">1.10452e+06</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes read" type="runtime" by="MAIP" unit="unknown">241182</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes read" type="runtime" by="MAIP" unit="unknown">863336</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes written" type="runtime" by="MAIP" unit="unknown">240148</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes written" type="runtime" by="MAIP" unit="unknown">240008</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes written" type="runtime" by="MAIP" unit="unknown">140</q2:measurement>
+                        <q2:measurement name="Avg MAR Index" type="runtime" by="MAIP" unit="unknown">0.288511</q2:measurement>
+                        <q2:measurement name="Avg Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.185408</q2:measurement>
+                        <q2:measurement name="Avg MOR Index" type="runtime" by="MAIP" unit="unknown">0.0783426</q2:measurement>
+                        <q2:measurement name="Avg Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0504075</q2:measurement>
+                        <q2:measurement name="Avg Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.357851</q2:measurement>
+                        <q2:measurement name="Avg Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.642814</q2:measurement>
+                        <q2:measurement name="Avg Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.999676</q2:measurement>
+                        <q2:measurement name="Avg Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4.00484</q2:measurement>
+                        <q2:measurement name="Max MAR Index" type="runtime" by="MAIP" unit="unknown">0.292834</q2:measurement>
+                        <q2:measurement name="Max Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.185411</q2:measurement>
+                        <q2:measurement name="Max MOR Index" type="runtime" by="MAIP" unit="unknown">0.0799282</q2:measurement>
+                        <q2:measurement name="Max Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0508828</q2:measurement>
+                        <q2:measurement name="Max Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.368617</q2:measurement>
+                        <q2:measurement name="Max Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.643134</q2:measurement>
+                        <q2:measurement name="Max Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.999694</q2:measurement>
+                        <q2:measurement name="Max Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4.00531</q2:measurement>
+                        <q2:measurement name="Min MAR Index" type="runtime" by="MAIP" unit="unknown">0.288373</q2:measurement>
+                        <q2:measurement name="Min Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.185323</q2:measurement>
+                        <q2:measurement name="Min MOR Index" type="runtime" by="MAIP" unit="unknown">0.0782924</q2:measurement>
+                        <q2:measurement name="Min Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0503925</q2:measurement>
+                        <q2:measurement name="Min Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.357504</q2:measurement>
+                        <q2:measurement name="Min Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.632861</q2:measurement>
+                        <q2:measurement name="Min Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.999094</q2:measurement>
+                        <q2:measurement name="Min Bytes Per Access" type="runtime" by="MAIP" unit="unknown">3.9903</q2:measurement>
+                    </q2:target>
+                </q2:statistics>
+            </q2:function>
+            <q2:function name="GetEnergyValue">
+                <q2:metrics />
+                <q2:statistics>
+                    <q2:target name="i686">
+                        <q2:measurement name="calls" type="prediction" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="avg. instructions/call" type="prediction" by="MAIP" unit="unknown">1091</q2:measurement>
+                        <q2:measurement name="Computational Contribution" type="runtime" by="MAIP" unit="unknown">7.72874e-06</q2:measurement>
+                        <q2:measurement name="Total # of Instructions executed" type="runtime" by="MAIP" unit="unknown">1091</q2:measurement>
+                        <q2:measurement name="Total # of Memory Access Instructions executed" type="runtime" by="MAIP" unit="unknown">744</q2:measurement>
+                        <q2:measurement name="Total # of Stack Access Instructions executed" type="runtime" by="MAIP" unit="unknown">644</q2:measurement>
+                        <q2:measurement name="Total # of Heap Access Instructions executed" type="runtime" by="MAIP" unit="unknown">100</q2:measurement>
+                        <q2:measurement name="Total # of Memory reads" type="runtime" by="MAIP" unit="unknown">276</q2:measurement>
+                        <q2:measurement name="Total # of Stack reads" type="runtime" by="MAIP" unit="unknown">176</q2:measurement>
+                        <q2:measurement name="Total # of Heap reads" type="runtime" by="MAIP" unit="unknown">100</q2:measurement>
+                        <q2:measurement name="Total # of Memory writes" type="runtime" by="MAIP" unit="unknown">468</q2:measurement>
+                        <q2:measurement name="Total # of Stack writes" type="runtime" by="MAIP" unit="unknown">468</q2:measurement>
+                        <q2:measurement name="Total # of Heap writes" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes accessed" type="runtime" by="MAIP" unit="unknown">2976</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes accessed" type="runtime" by="MAIP" unit="unknown">2576</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes accessed" type="runtime" by="MAIP" unit="unknown">400</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes read" type="runtime" by="MAIP" unit="unknown">1104</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes read" type="runtime" by="MAIP" unit="unknown">704</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes read" type="runtime" by="MAIP" unit="unknown">400</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes written" type="runtime" by="MAIP" unit="unknown">1872</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes written" type="runtime" by="MAIP" unit="unknown">1872</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes written" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Avg MAR Index" type="runtime" by="MAIP" unit="unknown">0.681943</q2:measurement>
+                        <q2:measurement name="Avg Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.091659</q2:measurement>
+                        <q2:measurement name="Avg MOR Index" type="runtime" by="MAIP" unit="unknown">0.258693</q2:measurement>
+                        <q2:measurement name="Avg Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0705841</q2:measurement>
+                        <q2:measurement name="Avg Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.865591</q2:measurement>
+                        <q2:measurement name="Avg Flow Ratio" type="runtime" by="MAIP" unit="unknown">-0.258065</q2:measurement>
+                        <q2:measurement name="Avg Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="Avg Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Max MAR Index" type="runtime" by="MAIP" unit="unknown">0.681943</q2:measurement>
+                        <q2:measurement name="Max Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.091659</q2:measurement>
+                        <q2:measurement name="Max MOR Index" type="runtime" by="MAIP" unit="unknown">0.258693</q2:measurement>
+                        <q2:measurement name="Max Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0705841</q2:measurement>
+                        <q2:measurement name="Max Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.865591</q2:measurement>
+                        <q2:measurement name="Max Flow Ratio" type="runtime" by="MAIP" unit="unknown">-0.258065</q2:measurement>
+                        <q2:measurement name="Max Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="Max Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Min MAR Index" type="runtime" by="MAIP" unit="unknown">0.681943</q2:measurement>
+                        <q2:measurement name="Min Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.091659</q2:measurement>
+                        <q2:measurement name="Min MOR Index" type="runtime" by="MAIP" unit="unknown">0.258693</q2:measurement>
+                        <q2:measurement name="Min Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0705841</q2:measurement>
+                        <q2:measurement name="Min Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.865591</q2:measurement>
+                        <q2:measurement name="Min Flow Ratio" type="runtime" by="MAIP" unit="unknown">-0.258065</q2:measurement>
+                        <q2:measurement name="Min Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="Min Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                    </q2:target>
+                </q2:statistics>
+            </q2:function>
+            <q2:function name="GetErrorString">
+                <q2:metrics />
+                <q2:statistics>
+                    <q2:target name="i686">
+                        <q2:measurement name="calls" type="prediction" by="MAIP" unit="unknown">5</q2:measurement>
+                        <q2:measurement name="avg. instructions/call" type="prediction" by="MAIP" unit="unknown">9</q2:measurement>
+                        <q2:measurement name="Computational Contribution" type="runtime" by="MAIP" unit="unknown">3.18784e-07</q2:measurement>
+                        <q2:measurement name="Total # of Instructions executed" type="runtime" by="MAIP" unit="unknown">45</q2:measurement>
+                        <q2:measurement name="Total # of Memory Access Instructions executed" type="runtime" by="MAIP" unit="unknown">25</q2:measurement>
+                        <q2:measurement name="Total # of Stack Access Instructions executed" type="runtime" by="MAIP" unit="unknown">20</q2:measurement>
+                        <q2:measurement name="Total # of Heap Access Instructions executed" type="runtime" by="MAIP" unit="unknown">5</q2:measurement>
+                        <q2:measurement name="Total # of Memory reads" type="runtime" by="MAIP" unit="unknown">20</q2:measurement>
+                        <q2:measurement name="Total # of Stack reads" type="runtime" by="MAIP" unit="unknown">15</q2:measurement>
+                        <q2:measurement name="Total # of Heap reads" type="runtime" by="MAIP" unit="unknown">5</q2:measurement>
+                        <q2:measurement name="Total # of Memory writes" type="runtime" by="MAIP" unit="unknown">5</q2:measurement>
+                        <q2:measurement name="Total # of Stack writes" type="runtime" by="MAIP" unit="unknown">5</q2:measurement>
+                        <q2:measurement name="Total # of Heap writes" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes accessed" type="runtime" by="MAIP" unit="unknown">100</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes accessed" type="runtime" by="MAIP" unit="unknown">80</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes accessed" type="runtime" by="MAIP" unit="unknown">20</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes read" type="runtime" by="MAIP" unit="unknown">80</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes read" type="runtime" by="MAIP" unit="unknown">60</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes read" type="runtime" by="MAIP" unit="unknown">20</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes written" type="runtime" by="MAIP" unit="unknown">20</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes written" type="runtime" by="MAIP" unit="unknown">20</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes written" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Avg MAR Index" type="runtime" by="MAIP" unit="unknown">0.555556</q2:measurement>
+                        <q2:measurement name="Avg Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.111111</q2:measurement>
+                        <q2:measurement name="Avg MOR Index" type="runtime" by="MAIP" unit="unknown">0.192308</q2:measurement>
+                        <q2:measurement name="Avg Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0769231</q2:measurement>
+                        <q2:measurement name="Avg Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.8</q2:measurement>
+                        <q2:measurement name="Avg Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.6</q2:measurement>
+                        <q2:measurement name="Avg Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="Avg Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Max MAR Index" type="runtime" by="MAIP" unit="unknown">0.555556</q2:measurement>
+                        <q2:measurement name="Max Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.111111</q2:measurement>
+                        <q2:measurement name="Max MOR Index" type="runtime" by="MAIP" unit="unknown">0.192308</q2:measurement>
+                        <q2:measurement name="Max Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0769231</q2:measurement>
+                        <q2:measurement name="Max Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.8</q2:measurement>
+                        <q2:measurement name="Max Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.6</q2:measurement>
+                        <q2:measurement name="Max Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="Max Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Min MAR Index" type="runtime" by="MAIP" unit="unknown">0.555556</q2:measurement>
+                        <q2:measurement name="Min Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.111111</q2:measurement>
+                        <q2:measurement name="Min MOR Index" type="runtime" by="MAIP" unit="unknown">0.192308</q2:measurement>
+                        <q2:measurement name="Min Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0769231</q2:measurement>
+                        <q2:measurement name="Min Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.8</q2:measurement>
+                        <q2:measurement name="Min Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.6</q2:measurement>
+                        <q2:measurement name="Min Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="Min Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                    </q2:target>
+                </q2:statistics>
+            </q2:function>
+            <q2:function name="LoadData">
+                <q2:metrics />
+                <q2:statistics>
+                    <q2:target name="i686">
+                        <q2:measurement name="calls" type="prediction" by="MAIP" unit="unknown">33</q2:measurement>
+                        <q2:measurement name="avg. instructions/call" type="prediction" by="MAIP" unit="unknown">4.23307e+06</q2:measurement>
+                        <q2:measurement name="Computational Contribution" type="runtime" by="MAIP" unit="unknown">0.989586</q2:measurement>
+                        <q2:measurement name="Total # of Instructions executed" type="runtime" by="MAIP" unit="unknown">1.39691e+08</q2:measurement>
+                        <q2:measurement name="Total # of Memory Access Instructions executed" type="runtime" by="MAIP" unit="unknown">7.03278e+07</q2:measurement>
+                        <q2:measurement name="Total # of Stack Access Instructions executed" type="runtime" by="MAIP" unit="unknown">5.78367e+07</q2:measurement>
+                        <q2:measurement name="Total # of Heap Access Instructions executed" type="runtime" by="MAIP" unit="unknown">1.24911e+07</q2:measurement>
+                        <q2:measurement name="Total # of Memory reads" type="runtime" by="MAIP" unit="unknown">4.77087e+07</q2:measurement>
+                        <q2:measurement name="Total # of Stack reads" type="runtime" by="MAIP" unit="unknown">3.70846e+07</q2:measurement>
+                        <q2:measurement name="Total # of Heap reads" type="runtime" by="MAIP" unit="unknown">1.06241e+07</q2:measurement>
+                        <q2:measurement name="Total # of Memory writes" type="runtime" by="MAIP" unit="unknown">2.26191e+07</q2:measurement>
+                        <q2:measurement name="Total # of Stack writes" type="runtime" by="MAIP" unit="unknown">2.07521e+07</q2:measurement>
+                        <q2:measurement name="Total # of Heap writes" type="runtime" by="MAIP" unit="unknown">1.86704e+06</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes accessed" type="runtime" by="MAIP" unit="unknown">2.71969e+08</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes accessed" type="runtime" by="MAIP" unit="unknown">2.29184e+08</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes accessed" type="runtime" by="MAIP" unit="unknown">4.27852e+07</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes read" type="runtime" by="MAIP" unit="unknown">1.70923e+08</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes read" type="runtime" by="MAIP" unit="unknown">1.37229e+08</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes read" type="runtime" by="MAIP" unit="unknown">3.3694e+07</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes written" type="runtime" by="MAIP" unit="unknown">1.01046e+08</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes written" type="runtime" by="MAIP" unit="unknown">9.19549e+07</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes written" type="runtime" by="MAIP" unit="unknown">9.09119e+06</q2:measurement>
+                        <q2:measurement name="Avg MAR Index" type="runtime" by="MAIP" unit="unknown">0.503451</q2:measurement>
+                        <q2:measurement name="Avg Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.0894192</q2:measurement>
+                        <q2:measurement name="Avg MOR Index" type="runtime" by="MAIP" unit="unknown">0.203796</q2:measurement>
+                        <q2:measurement name="Avg Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0474628</q2:measurement>
+                        <q2:measurement name="Avg Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.842684</q2:measurement>
+                        <q2:measurement name="Avg Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.25693</q2:measurement>
+                        <q2:measurement name="Avg Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.575031</q2:measurement>
+                        <q2:measurement name="Avg Bytes Per Access" type="runtime" by="MAIP" unit="unknown">3.66017</q2:measurement>
+                        <q2:measurement name="Max MAR Index" type="runtime" by="MAIP" unit="unknown">0.505907</q2:measurement>
+                        <q2:measurement name="Max Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.0898549</q2:measurement>
+                        <q2:measurement name="Max MOR Index" type="runtime" by="MAIP" unit="unknown">0.204573</q2:measurement>
+                        <q2:measurement name="Max Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0478541</q2:measurement>
+                        <q2:measurement name="Max Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.845193</q2:measurement>
+                        <q2:measurement name="Max Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.257789</q2:measurement>
+                        <q2:measurement name="Max Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.580243</q2:measurement>
+                        <q2:measurement name="Max Bytes Per Access" type="runtime" by="MAIP" unit="unknown">3.67141</q2:measurement>
+                        <q2:measurement name="Min MAR Index" type="runtime" by="MAIP" unit="unknown">0.502068</q2:measurement>
+                        <q2:measurement name="Min Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.0879378</q2:measurement>
+                        <q2:measurement name="Min MOR Index" type="runtime" by="MAIP" unit="unknown">0.203241</q2:measurement>
+                        <q2:measurement name="Min Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0468972</q2:measurement>
+                        <q2:measurement name="Min Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.84174</q2:measurement>
+                        <q2:measurement name="Min Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.255769</q2:measurement>
+                        <q2:measurement name="Min Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.570501</q2:measurement>
+                        <q2:measurement name="Min Bytes Per Access" type="runtime" by="MAIP" unit="unknown">3.65797</q2:measurement>
+                    </q2:target>
+                </q2:statistics>
+            </q2:function>
+            <q2:function name="Out_of_the_main_function_scope">
+                <q2:metrics />
+                <q2:statistics>
+                    <q2:target name="i686">
+                        <q2:measurement name="calls" type="prediction" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="avg. instructions/call" type="prediction" by="MAIP" unit="unknown">-nan</q2:measurement>
+                        <q2:measurement name="Computational Contribution" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Instructions executed" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory Access Instructions executed" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Stack Access Instructions executed" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Heap Access Instructions executed" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory reads" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Stack reads" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Heap reads" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory writes" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Stack writes" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Heap writes" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes accessed" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes accessed" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes accessed" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes read" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes read" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes read" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes written" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes written" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes written" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Avg MAR Index" type="runtime" by="MAIP" unit="unknown">-nan</q2:measurement>
+                        <q2:measurement name="Avg Heap MAR Index" type="runtime" by="MAIP" unit="unknown">-nan</q2:measurement>
+                        <q2:measurement name="Avg MOR Index" type="runtime" by="MAIP" unit="unknown">-nan</q2:measurement>
+                        <q2:measurement name="Avg Heap MOR Index" type="runtime" by="MAIP" unit="unknown">-nan</q2:measurement>
+                        <q2:measurement name="Avg Stack Ratio" type="runtime" by="MAIP" unit="unknown">-nan</q2:measurement>
+                        <q2:measurement name="Avg Flow Ratio" type="runtime" by="MAIP" unit="unknown">-nan</q2:measurement>
+                        <q2:measurement name="Avg Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Avg Bytes Per Access" type="runtime" by="MAIP" unit="unknown">-nan</q2:measurement>
+                        <q2:measurement name="Max MAR Index" type="runtime" by="MAIP" unit="unknown">-inf</q2:measurement>
+                        <q2:measurement name="Max Heap MAR Index" type="runtime" by="MAIP" unit="unknown">-inf</q2:measurement>
+                        <q2:measurement name="Max MOR Index" type="runtime" by="MAIP" unit="unknown">-inf</q2:measurement>
+                        <q2:measurement name="Max Heap MOR Index" type="runtime" by="MAIP" unit="unknown">-inf</q2:measurement>
+                        <q2:measurement name="Max Stack Ratio" type="runtime" by="MAIP" unit="unknown">-inf</q2:measurement>
+                        <q2:measurement name="Max Flow Ratio" type="runtime" by="MAIP" unit="unknown">-inf</q2:measurement>
+                        <q2:measurement name="Max Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">-inf</q2:measurement>
+                        <q2:measurement name="Max Bytes Per Access" type="runtime" by="MAIP" unit="unknown">-inf</q2:measurement>
+                        <q2:measurement name="Min MAR Index" type="runtime" by="MAIP" unit="unknown">inf</q2:measurement>
+                        <q2:measurement name="Min Heap MAR Index" type="runtime" by="MAIP" unit="unknown">inf</q2:measurement>
+                        <q2:measurement name="Min MOR Index" type="runtime" by="MAIP" unit="unknown">inf</q2:measurement>
+                        <q2:measurement name="Min Heap MOR Index" type="runtime" by="MAIP" unit="unknown">inf</q2:measurement>
+                        <q2:measurement name="Min Stack Ratio" type="runtime" by="MAIP" unit="unknown">inf</q2:measurement>
+                        <q2:measurement name="Min Flow Ratio" type="runtime" by="MAIP" unit="unknown">inf</q2:measurement>
+                        <q2:measurement name="Min Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">inf</q2:measurement>
+                        <q2:measurement name="Min Bytes Per Access" type="runtime" by="MAIP" unit="unknown">inf</q2:measurement>
+                    </q2:target>
+                </q2:statistics>
+            </q2:function>
+            <q2:function name="RF_End">
+                <q2:metrics />
+                <q2:statistics>
+                    <q2:target name="i686">
+                        <q2:measurement name="calls" type="prediction" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="avg. instructions/call" type="prediction" by="MAIP" unit="unknown">894</q2:measurement>
+                        <q2:measurement name="Computational Contribution" type="runtime" by="MAIP" unit="unknown">6.33318e-06</q2:measurement>
+                        <q2:measurement name="Total # of Instructions executed" type="runtime" by="MAIP" unit="unknown">894</q2:measurement>
+                        <q2:measurement name="Total # of Memory Access Instructions executed" type="runtime" by="MAIP" unit="unknown">460</q2:measurement>
+                        <q2:measurement name="Total # of Stack Access Instructions executed" type="runtime" by="MAIP" unit="unknown">298</q2:measurement>
+                        <q2:measurement name="Total # of Heap Access Instructions executed" type="runtime" by="MAIP" unit="unknown">162</q2:measurement>
+                        <q2:measurement name="Total # of Memory reads" type="runtime" by="MAIP" unit="unknown">321</q2:measurement>
+                        <q2:measurement name="Total # of Stack reads" type="runtime" by="MAIP" unit="unknown">162</q2:measurement>
+                        <q2:measurement name="Total # of Heap reads" type="runtime" by="MAIP" unit="unknown">159</q2:measurement>
+                        <q2:measurement name="Total # of Memory writes" type="runtime" by="MAIP" unit="unknown">139</q2:measurement>
+                        <q2:measurement name="Total # of Stack writes" type="runtime" by="MAIP" unit="unknown">136</q2:measurement>
+                        <q2:measurement name="Total # of Heap writes" type="runtime" by="MAIP" unit="unknown">3</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes accessed" type="runtime" by="MAIP" unit="unknown">1641</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes accessed" type="runtime" by="MAIP" unit="unknown">1174</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes accessed" type="runtime" by="MAIP" unit="unknown">467</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes read" type="runtime" by="MAIP" unit="unknown">1077</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes read" type="runtime" by="MAIP" unit="unknown">630</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes read" type="runtime" by="MAIP" unit="unknown">447</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes written" type="runtime" by="MAIP" unit="unknown">564</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes written" type="runtime" by="MAIP" unit="unknown">544</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes written" type="runtime" by="MAIP" unit="unknown">20</q2:measurement>
+                        <q2:measurement name="Avg MAR Index" type="runtime" by="MAIP" unit="unknown">0.514541</q2:measurement>
+                        <q2:measurement name="Avg Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.181208</q2:measurement>
+                        <q2:measurement name="Avg MOR Index" type="runtime" by="MAIP" unit="unknown">0.194199</q2:measurement>
+                        <q2:measurement name="Avg Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0891131</q2:measurement>
+                        <q2:measurement name="Avg Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.715417</q2:measurement>
+                        <q2:measurement name="Avg Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.312614</q2:measurement>
+                        <q2:measurement name="Avg Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.914347</q2:measurement>
+                        <q2:measurement name="Avg Bytes Per Access" type="runtime" by="MAIP" unit="unknown">3.55195</q2:measurement>
+                        <q2:measurement name="Max MAR Index" type="runtime" by="MAIP" unit="unknown">0.514541</q2:measurement>
+                        <q2:measurement name="Max Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.181208</q2:measurement>
+                        <q2:measurement name="Max MOR Index" type="runtime" by="MAIP" unit="unknown">0.194199</q2:measurement>
+                        <q2:measurement name="Max Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0891131</q2:measurement>
+                        <q2:measurement name="Max Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.715417</q2:measurement>
+                        <q2:measurement name="Max Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.312614</q2:measurement>
+                        <q2:measurement name="Max Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.914347</q2:measurement>
+                        <q2:measurement name="Max Bytes Per Access" type="runtime" by="MAIP" unit="unknown">3.55195</q2:measurement>
+                        <q2:measurement name="Min MAR Index" type="runtime" by="MAIP" unit="unknown">0.514541</q2:measurement>
+                        <q2:measurement name="Min Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.181208</q2:measurement>
+                        <q2:measurement name="Min MOR Index" type="runtime" by="MAIP" unit="unknown">0.194199</q2:measurement>
+                        <q2:measurement name="Min Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0891131</q2:measurement>
+                        <q2:measurement name="Min Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.715417</q2:measurement>
+                        <q2:measurement name="Min Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.312614</q2:measurement>
+                        <q2:measurement name="Min Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.914347</q2:measurement>
+                        <q2:measurement name="Min Bytes Per Access" type="runtime" by="MAIP" unit="unknown">3.55195</q2:measurement>
+                    </q2:target>
+                </q2:statistics>
+            </q2:function>
+            <q2:function name="RF_Start">
+                <q2:metrics />
+                <q2:statistics>
+                    <q2:target name="i686">
+                        <q2:measurement name="calls" type="prediction" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="avg. instructions/call" type="prediction" by="MAIP" unit="unknown">209</q2:measurement>
+                        <q2:measurement name="Computational Contribution" type="runtime" by="MAIP" unit="unknown">1.48058e-06</q2:measurement>
+                        <q2:measurement name="Total # of Instructions executed" type="runtime" by="MAIP" unit="unknown">209</q2:measurement>
+                        <q2:measurement name="Total # of Memory Access Instructions executed" type="runtime" by="MAIP" unit="unknown">96</q2:measurement>
+                        <q2:measurement name="Total # of Stack Access Instructions executed" type="runtime" by="MAIP" unit="unknown">73</q2:measurement>
+                        <q2:measurement name="Total # of Heap Access Instructions executed" type="runtime" by="MAIP" unit="unknown">23</q2:measurement>
+                        <q2:measurement name="Total # of Memory reads" type="runtime" by="MAIP" unit="unknown">62</q2:measurement>
+                        <q2:measurement name="Total # of Stack reads" type="runtime" by="MAIP" unit="unknown">43</q2:measurement>
+                        <q2:measurement name="Total # of Heap reads" type="runtime" by="MAIP" unit="unknown">19</q2:measurement>
+                        <q2:measurement name="Total # of Memory writes" type="runtime" by="MAIP" unit="unknown">34</q2:measurement>
+                        <q2:measurement name="Total # of Stack writes" type="runtime" by="MAIP" unit="unknown">30</q2:measurement>
+                        <q2:measurement name="Total # of Heap writes" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes accessed" type="runtime" by="MAIP" unit="unknown">384</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes accessed" type="runtime" by="MAIP" unit="unknown">292</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes accessed" type="runtime" by="MAIP" unit="unknown">92</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes read" type="runtime" by="MAIP" unit="unknown">248</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes read" type="runtime" by="MAIP" unit="unknown">172</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes read" type="runtime" by="MAIP" unit="unknown">76</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes written" type="runtime" by="MAIP" unit="unknown">136</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes written" type="runtime" by="MAIP" unit="unknown">120</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes written" type="runtime" by="MAIP" unit="unknown">16</q2:measurement>
+                        <q2:measurement name="Avg MAR Index" type="runtime" by="MAIP" unit="unknown">0.45933</q2:measurement>
+                        <q2:measurement name="Avg Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.110048</q2:measurement>
+                        <q2:measurement name="Avg MOR Index" type="runtime" by="MAIP" unit="unknown">0.173285</q2:measurement>
+                        <q2:measurement name="Avg Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0595668</q2:measurement>
+                        <q2:measurement name="Avg Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.760417</q2:measurement>
+                        <q2:measurement name="Avg Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.291667</q2:measurement>
+                        <q2:measurement name="Avg Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.652174</q2:measurement>
+                        <q2:measurement name="Avg Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Max MAR Index" type="runtime" by="MAIP" unit="unknown">0.45933</q2:measurement>
+                        <q2:measurement name="Max Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.110048</q2:measurement>
+                        <q2:measurement name="Max MOR Index" type="runtime" by="MAIP" unit="unknown">0.173285</q2:measurement>
+                        <q2:measurement name="Max Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0595668</q2:measurement>
+                        <q2:measurement name="Max Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.760417</q2:measurement>
+                        <q2:measurement name="Max Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.291667</q2:measurement>
+                        <q2:measurement name="Max Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.652174</q2:measurement>
+                        <q2:measurement name="Max Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Min MAR Index" type="runtime" by="MAIP" unit="unknown">0.45933</q2:measurement>
+                        <q2:measurement name="Min Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.110048</q2:measurement>
+                        <q2:measurement name="Min MOR Index" type="runtime" by="MAIP" unit="unknown">0.173285</q2:measurement>
+                        <q2:measurement name="Min Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0595668</q2:measurement>
+                        <q2:measurement name="Min Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.760417</q2:measurement>
+                        <q2:measurement name="Min Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.291667</q2:measurement>
+                        <q2:measurement name="Min Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.652174</q2:measurement>
+                        <q2:measurement name="Min Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                    </q2:target>
+                </q2:statistics>
+            </q2:function>
+            <q2:function name="SetEnergyDetector">
+                <q2:metrics />
+                <q2:statistics>
+                    <q2:target name="i686">
+                        <q2:measurement name="calls" type="prediction" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="avg. instructions/call" type="prediction" by="MAIP" unit="unknown">22</q2:measurement>
+                        <q2:measurement name="Computational Contribution" type="runtime" by="MAIP" unit="unknown">1.5585e-07</q2:measurement>
+                        <q2:measurement name="Total # of Instructions executed" type="runtime" by="MAIP" unit="unknown">22</q2:measurement>
+                        <q2:measurement name="Total # of Memory Access Instructions executed" type="runtime" by="MAIP" unit="unknown">17</q2:measurement>
+                        <q2:measurement name="Total # of Stack Access Instructions executed" type="runtime" by="MAIP" unit="unknown">11</q2:measurement>
+                        <q2:measurement name="Total # of Heap Access Instructions executed" type="runtime" by="MAIP" unit="unknown">6</q2:measurement>
+                        <q2:measurement name="Total # of Memory reads" type="runtime" by="MAIP" unit="unknown">10</q2:measurement>
+                        <q2:measurement name="Total # of Stack reads" type="runtime" by="MAIP" unit="unknown">10</q2:measurement>
+                        <q2:measurement name="Total # of Heap reads" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory writes" type="runtime" by="MAIP" unit="unknown">7</q2:measurement>
+                        <q2:measurement name="Total # of Stack writes" type="runtime" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="Total # of Heap writes" type="runtime" by="MAIP" unit="unknown">6</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes accessed" type="runtime" by="MAIP" unit="unknown">68</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes accessed" type="runtime" by="MAIP" unit="unknown">44</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes accessed" type="runtime" by="MAIP" unit="unknown">24</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes read" type="runtime" by="MAIP" unit="unknown">40</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes read" type="runtime" by="MAIP" unit="unknown">40</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes read" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes written" type="runtime" by="MAIP" unit="unknown">28</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes written" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes written" type="runtime" by="MAIP" unit="unknown">24</q2:measurement>
+                        <q2:measurement name="Avg MAR Index" type="runtime" by="MAIP" unit="unknown">0.772727</q2:measurement>
+                        <q2:measurement name="Avg Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.272727</q2:measurement>
+                        <q2:measurement name="Avg MOR Index" type="runtime" by="MAIP" unit="unknown">0.320755</q2:measurement>
+                        <q2:measurement name="Avg Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.132075</q2:measurement>
+                        <q2:measurement name="Avg Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.647059</q2:measurement>
+                        <q2:measurement name="Avg Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.176471</q2:measurement>
+                        <q2:measurement name="Avg Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">-1</q2:measurement>
+                        <q2:measurement name="Avg Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Max MAR Index" type="runtime" by="MAIP" unit="unknown">0.772727</q2:measurement>
+                        <q2:measurement name="Max Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.272727</q2:measurement>
+                        <q2:measurement name="Max MOR Index" type="runtime" by="MAIP" unit="unknown">0.320755</q2:measurement>
+                        <q2:measurement name="Max Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.132075</q2:measurement>
+                        <q2:measurement name="Max Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.647059</q2:measurement>
+                        <q2:measurement name="Max Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.176471</q2:measurement>
+                        <q2:measurement name="Max Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">-1</q2:measurement>
+                        <q2:measurement name="Max Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Min MAR Index" type="runtime" by="MAIP" unit="unknown">0.772727</q2:measurement>
+                        <q2:measurement name="Min Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.272727</q2:measurement>
+                        <q2:measurement name="Min MOR Index" type="runtime" by="MAIP" unit="unknown">0.320755</q2:measurement>
+                        <q2:measurement name="Min Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.132075</q2:measurement>
+                        <q2:measurement name="Min Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.647059</q2:measurement>
+                        <q2:measurement name="Min Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.176471</q2:measurement>
+                        <q2:measurement name="Min Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">-1</q2:measurement>
+                        <q2:measurement name="Min Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                    </q2:target>
+                </q2:statistics>
+            </q2:function>
+            <q2:function name="Set_RF">
+                <q2:metrics />
+                <q2:statistics>
+                    <q2:target name="i686">
+                        <q2:measurement name="calls" type="prediction" by="MAIP" unit="unknown">33</q2:measurement>
+                        <q2:measurement name="avg. instructions/call" type="prediction" by="MAIP" unit="unknown">11</q2:measurement>
+                        <q2:measurement name="Computational Contribution" type="runtime" by="MAIP" unit="unknown">2.57153e-06</q2:measurement>
+                        <q2:measurement name="Total # of Instructions executed" type="runtime" by="MAIP" unit="unknown">363</q2:measurement>
+                        <q2:measurement name="Total # of Memory Access Instructions executed" type="runtime" by="MAIP" unit="unknown">297</q2:measurement>
+                        <q2:measurement name="Total # of Stack Access Instructions executed" type="runtime" by="MAIP" unit="unknown">198</q2:measurement>
+                        <q2:measurement name="Total # of Heap Access Instructions executed" type="runtime" by="MAIP" unit="unknown">99</q2:measurement>
+                        <q2:measurement name="Total # of Memory reads" type="runtime" by="MAIP" unit="unknown">198</q2:measurement>
+                        <q2:measurement name="Total # of Stack reads" type="runtime" by="MAIP" unit="unknown">165</q2:measurement>
+                        <q2:measurement name="Total # of Heap reads" type="runtime" by="MAIP" unit="unknown">33</q2:measurement>
+                        <q2:measurement name="Total # of Memory writes" type="runtime" by="MAIP" unit="unknown">99</q2:measurement>
+                        <q2:measurement name="Total # of Stack writes" type="runtime" by="MAIP" unit="unknown">33</q2:measurement>
+                        <q2:measurement name="Total # of Heap writes" type="runtime" by="MAIP" unit="unknown">66</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes accessed" type="runtime" by="MAIP" unit="unknown">1188</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes accessed" type="runtime" by="MAIP" unit="unknown">792</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes accessed" type="runtime" by="MAIP" unit="unknown">396</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes read" type="runtime" by="MAIP" unit="unknown">792</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes read" type="runtime" by="MAIP" unit="unknown">660</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes read" type="runtime" by="MAIP" unit="unknown">132</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes written" type="runtime" by="MAIP" unit="unknown">396</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes written" type="runtime" by="MAIP" unit="unknown">132</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes written" type="runtime" by="MAIP" unit="unknown">264</q2:measurement>
+                        <q2:measurement name="Avg MAR Index" type="runtime" by="MAIP" unit="unknown">0.818182</q2:measurement>
+                        <q2:measurement name="Avg Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.272727</q2:measurement>
+                        <q2:measurement name="Avg MOR Index" type="runtime" by="MAIP" unit="unknown">0.321429</q2:measurement>
+                        <q2:measurement name="Avg Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.142857</q2:measurement>
+                        <q2:measurement name="Avg Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.666667</q2:measurement>
+                        <q2:measurement name="Avg Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.333333</q2:measurement>
+                        <q2:measurement name="Avg Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">-0.333333</q2:measurement>
+                        <q2:measurement name="Avg Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Max MAR Index" type="runtime" by="MAIP" unit="unknown">0.818182</q2:measurement>
+                        <q2:measurement name="Max Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.272727</q2:measurement>
+                        <q2:measurement name="Max MOR Index" type="runtime" by="MAIP" unit="unknown">0.321429</q2:measurement>
+                        <q2:measurement name="Max Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.142857</q2:measurement>
+                        <q2:measurement name="Max Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.666667</q2:measurement>
+                        <q2:measurement name="Max Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.333333</q2:measurement>
+                        <q2:measurement name="Max Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">-0.333333</q2:measurement>
+                        <q2:measurement name="Max Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Min MAR Index" type="runtime" by="MAIP" unit="unknown">0.818182</q2:measurement>
+                        <q2:measurement name="Min Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.272727</q2:measurement>
+                        <q2:measurement name="Min MOR Index" type="runtime" by="MAIP" unit="unknown">0.321429</q2:measurement>
+                        <q2:measurement name="Min Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.142857</q2:measurement>
+                        <q2:measurement name="Min Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.666667</q2:measurement>
+                        <q2:measurement name="Min Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.333333</q2:measurement>
+                        <q2:measurement name="Min Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">-0.333333</q2:measurement>
+                        <q2:measurement name="Min Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                    </q2:target>
+                </q2:statistics>
+            </q2:function>
+            <q2:function name="SnifferOpen">
+                <q2:metrics />
+                <q2:statistics>
+                    <q2:target name="i686">
+                        <q2:measurement name="calls" type="prediction" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="avg. instructions/call" type="prediction" by="MAIP" unit="unknown">484</q2:measurement>
+                        <q2:measurement name="Computational Contribution" type="runtime" by="MAIP" unit="unknown">3.4287e-06</q2:measurement>
+                        <q2:measurement name="Total # of Instructions executed" type="runtime" by="MAIP" unit="unknown">484</q2:measurement>
+                        <q2:measurement name="Total # of Memory Access Instructions executed" type="runtime" by="MAIP" unit="unknown">218</q2:measurement>
+                        <q2:measurement name="Total # of Stack Access Instructions executed" type="runtime" by="MAIP" unit="unknown">146</q2:measurement>
+                        <q2:measurement name="Total # of Heap Access Instructions executed" type="runtime" by="MAIP" unit="unknown">72</q2:measurement>
+                        <q2:measurement name="Total # of Memory reads" type="runtime" by="MAIP" unit="unknown">141</q2:measurement>
+                        <q2:measurement name="Total # of Stack reads" type="runtime" by="MAIP" unit="unknown">85</q2:measurement>
+                        <q2:measurement name="Total # of Heap reads" type="runtime" by="MAIP" unit="unknown">56</q2:measurement>
+                        <q2:measurement name="Total # of Memory writes" type="runtime" by="MAIP" unit="unknown">77</q2:measurement>
+                        <q2:measurement name="Total # of Stack writes" type="runtime" by="MAIP" unit="unknown">61</q2:measurement>
+                        <q2:measurement name="Total # of Heap writes" type="runtime" by="MAIP" unit="unknown">16</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes accessed" type="runtime" by="MAIP" unit="unknown">815</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes accessed" type="runtime" by="MAIP" unit="unknown">584</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes accessed" type="runtime" by="MAIP" unit="unknown">231</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes read" type="runtime" by="MAIP" unit="unknown">534</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes read" type="runtime" by="MAIP" unit="unknown">340</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes read" type="runtime" by="MAIP" unit="unknown">194</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes written" type="runtime" by="MAIP" unit="unknown">281</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes written" type="runtime" by="MAIP" unit="unknown">244</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes written" type="runtime" by="MAIP" unit="unknown">37</q2:measurement>
+                        <q2:measurement name="Avg MAR Index" type="runtime" by="MAIP" unit="unknown">0.450413</q2:measurement>
+                        <q2:measurement name="Avg Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.14876</q2:measurement>
+                        <q2:measurement name="Avg MOR Index" type="runtime" by="MAIP" unit="unknown">0.171924</q2:measurement>
+                        <q2:measurement name="Avg Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0725552</q2:measurement>
+                        <q2:measurement name="Avg Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.716564</q2:measurement>
+                        <q2:measurement name="Avg Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.310429</q2:measurement>
+                        <q2:measurement name="Avg Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.679654</q2:measurement>
+                        <q2:measurement name="Avg Bytes Per Access" type="runtime" by="MAIP" unit="unknown">3.73853</q2:measurement>
+                        <q2:measurement name="Max MAR Index" type="runtime" by="MAIP" unit="unknown">0.450413</q2:measurement>
+                        <q2:measurement name="Max Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.14876</q2:measurement>
+                        <q2:measurement name="Max MOR Index" type="runtime" by="MAIP" unit="unknown">0.171924</q2:measurement>
+                        <q2:measurement name="Max Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0725552</q2:measurement>
+                        <q2:measurement name="Max Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.716564</q2:measurement>
+                        <q2:measurement name="Max Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.310429</q2:measurement>
+                        <q2:measurement name="Max Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.679654</q2:measurement>
+                        <q2:measurement name="Max Bytes Per Access" type="runtime" by="MAIP" unit="unknown">3.73853</q2:measurement>
+                        <q2:measurement name="Min MAR Index" type="runtime" by="MAIP" unit="unknown">0.450413</q2:measurement>
+                        <q2:measurement name="Min Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.14876</q2:measurement>
+                        <q2:measurement name="Min MOR Index" type="runtime" by="MAIP" unit="unknown">0.171924</q2:measurement>
+                        <q2:measurement name="Min Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0725552</q2:measurement>
+                        <q2:measurement name="Min Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.716564</q2:measurement>
+                        <q2:measurement name="Min Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.310429</q2:measurement>
+                        <q2:measurement name="Min Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.679654</q2:measurement>
+                        <q2:measurement name="Min Bytes Per Access" type="runtime" by="MAIP" unit="unknown">3.73853</q2:measurement>
+                    </q2:target>
+                </q2:statistics>
+            </q2:function>
+            <q2:function name="SnifferStartScan">
+                <q2:metrics />
+                <q2:statistics>
+                    <q2:target name="i686">
+                        <q2:measurement name="calls" type="prediction" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="avg. instructions/call" type="prediction" by="MAIP" unit="unknown">11</q2:measurement>
+                        <q2:measurement name="Computational Contribution" type="runtime" by="MAIP" unit="unknown">7.7925e-08</q2:measurement>
+                        <q2:measurement name="Total # of Instructions executed" type="runtime" by="MAIP" unit="unknown">11</q2:measurement>
+                        <q2:measurement name="Total # of Memory Access Instructions executed" type="runtime" by="MAIP" unit="unknown">7</q2:measurement>
+                        <q2:measurement name="Total # of Stack Access Instructions executed" type="runtime" by="MAIP" unit="unknown">7</q2:measurement>
+                        <q2:measurement name="Total # of Heap Access Instructions executed" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory reads" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Total # of Stack reads" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Total # of Heap reads" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory writes" type="runtime" by="MAIP" unit="unknown">3</q2:measurement>
+                        <q2:measurement name="Total # of Stack writes" type="runtime" by="MAIP" unit="unknown">3</q2:measurement>
+                        <q2:measurement name="Total # of Heap writes" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes accessed" type="runtime" by="MAIP" unit="unknown">28</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes accessed" type="runtime" by="MAIP" unit="unknown">28</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes accessed" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes read" type="runtime" by="MAIP" unit="unknown">16</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes read" type="runtime" by="MAIP" unit="unknown">16</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes read" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes written" type="runtime" by="MAIP" unit="unknown">12</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes written" type="runtime" by="MAIP" unit="unknown">12</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes written" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Avg MAR Index" type="runtime" by="MAIP" unit="unknown">0.636364</q2:measurement>
+                        <q2:measurement name="Avg Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Avg MOR Index" type="runtime" by="MAIP" unit="unknown">0.205882</q2:measurement>
+                        <q2:measurement name="Avg Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0588235</q2:measurement>
+                        <q2:measurement name="Avg Stack Ratio" type="runtime" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="Avg Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.142857</q2:measurement>
+                        <q2:measurement name="Avg Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Avg Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Max MAR Index" type="runtime" by="MAIP" unit="unknown">0.636364</q2:measurement>
+                        <q2:measurement name="Max Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Max MOR Index" type="runtime" by="MAIP" unit="unknown">0.205882</q2:measurement>
+                        <q2:measurement name="Max Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0588235</q2:measurement>
+                        <q2:measurement name="Max Stack Ratio" type="runtime" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="Max Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.142857</q2:measurement>
+                        <q2:measurement name="Max Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Max Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Min MAR Index" type="runtime" by="MAIP" unit="unknown">0.636364</q2:measurement>
+                        <q2:measurement name="Min Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Min MOR Index" type="runtime" by="MAIP" unit="unknown">0.205882</q2:measurement>
+                        <q2:measurement name="Min Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0588235</q2:measurement>
+                        <q2:measurement name="Min Stack Ratio" type="runtime" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="Min Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.142857</q2:measurement>
+                        <q2:measurement name="Min Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Min Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                    </q2:target>
+                </q2:statistics>
+            </q2:function>
+            <q2:function name="SnifferStopScan">
+                <q2:metrics />
+                <q2:statistics>
+                    <q2:target name="i686">
+                        <q2:measurement name="calls" type="prediction" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="avg. instructions/call" type="prediction" by="MAIP" unit="unknown">11</q2:measurement>
+                        <q2:measurement name="Computational Contribution" type="runtime" by="MAIP" unit="unknown">7.7925e-08</q2:measurement>
+                        <q2:measurement name="Total # of Instructions executed" type="runtime" by="MAIP" unit="unknown">11</q2:measurement>
+                        <q2:measurement name="Total # of Memory Access Instructions executed" type="runtime" by="MAIP" unit="unknown">7</q2:measurement>
+                        <q2:measurement name="Total # of Stack Access Instructions executed" type="runtime" by="MAIP" unit="unknown">7</q2:measurement>
+                        <q2:measurement name="Total # of Heap Access Instructions executed" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory reads" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Total # of Stack reads" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Total # of Heap reads" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory writes" type="runtime" by="MAIP" unit="unknown">3</q2:measurement>
+                        <q2:measurement name="Total # of Stack writes" type="runtime" by="MAIP" unit="unknown">3</q2:measurement>
+                        <q2:measurement name="Total # of Heap writes" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes accessed" type="runtime" by="MAIP" unit="unknown">28</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes accessed" type="runtime" by="MAIP" unit="unknown">28</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes accessed" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes read" type="runtime" by="MAIP" unit="unknown">16</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes read" type="runtime" by="MAIP" unit="unknown">16</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes read" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes written" type="runtime" by="MAIP" unit="unknown">12</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes written" type="runtime" by="MAIP" unit="unknown">12</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes written" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Avg MAR Index" type="runtime" by="MAIP" unit="unknown">0.636364</q2:measurement>
+                        <q2:measurement name="Avg Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Avg MOR Index" type="runtime" by="MAIP" unit="unknown">0.205882</q2:measurement>
+                        <q2:measurement name="Avg Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0588235</q2:measurement>
+                        <q2:measurement name="Avg Stack Ratio" type="runtime" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="Avg Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.142857</q2:measurement>
+                        <q2:measurement name="Avg Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Avg Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Max MAR Index" type="runtime" by="MAIP" unit="unknown">0.636364</q2:measurement>
+                        <q2:measurement name="Max Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Max MOR Index" type="runtime" by="MAIP" unit="unknown">0.205882</q2:measurement>
+                        <q2:measurement name="Max Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0588235</q2:measurement>
+                        <q2:measurement name="Max Stack Ratio" type="runtime" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="Max Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.142857</q2:measurement>
+                        <q2:measurement name="Max Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Max Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                        <q2:measurement name="Min MAR Index" type="runtime" by="MAIP" unit="unknown">0.636364</q2:measurement>
+                        <q2:measurement name="Min Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Min MOR Index" type="runtime" by="MAIP" unit="unknown">0.205882</q2:measurement>
+                        <q2:measurement name="Min Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0588235</q2:measurement>
+                        <q2:measurement name="Min Stack Ratio" type="runtime" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="Min Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.142857</q2:measurement>
+                        <q2:measurement name="Min Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0</q2:measurement>
+                        <q2:measurement name="Min Bytes Per Access" type="runtime" by="MAIP" unit="unknown">4</q2:measurement>
+                    </q2:target>
+                </q2:statistics>
+            </q2:function>
+            <q2:function name="main">
+                <q2:metrics />
+                <q2:statistics>
+                    <q2:target name="i686">
+                        <q2:measurement name="calls" type="prediction" by="MAIP" unit="unknown">1</q2:measurement>
+                        <q2:measurement name="avg. instructions/call" type="prediction" by="MAIP" unit="unknown">178619</q2:measurement>
+                        <q2:measurement name="Computational Contribution" type="runtime" by="MAIP" unit="unknown">0.00126535</q2:measurement>
+                        <q2:measurement name="Total # of Instructions executed" type="runtime" by="MAIP" unit="unknown">178619</q2:measurement>
+                        <q2:measurement name="Total # of Memory Access Instructions executed" type="runtime" by="MAIP" unit="unknown">91541</q2:measurement>
+                        <q2:measurement name="Total # of Stack Access Instructions executed" type="runtime" by="MAIP" unit="unknown">69966</q2:measurement>
+                        <q2:measurement name="Total # of Heap Access Instructions executed" type="runtime" by="MAIP" unit="unknown">21575</q2:measurement>
+                        <q2:measurement name="Total # of Memory reads" type="runtime" by="MAIP" unit="unknown">65784</q2:measurement>
+                        <q2:measurement name="Total # of Stack reads" type="runtime" by="MAIP" unit="unknown">45640</q2:measurement>
+                        <q2:measurement name="Total # of Heap reads" type="runtime" by="MAIP" unit="unknown">20144</q2:measurement>
+                        <q2:measurement name="Total # of Memory writes" type="runtime" by="MAIP" unit="unknown">25757</q2:measurement>
+                        <q2:measurement name="Total # of Stack writes" type="runtime" by="MAIP" unit="unknown">24326</q2:measurement>
+                        <q2:measurement name="Total # of Heap writes" type="runtime" by="MAIP" unit="unknown">1431</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes accessed" type="runtime" by="MAIP" unit="unknown">346376</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes accessed" type="runtime" by="MAIP" unit="unknown">283857</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes accessed" type="runtime" by="MAIP" unit="unknown">62519</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes read" type="runtime" by="MAIP" unit="unknown">237080</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes read" type="runtime" by="MAIP" unit="unknown">179248</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes read" type="runtime" by="MAIP" unit="unknown">57832</q2:measurement>
+                        <q2:measurement name="Total # of Memory bytes written" type="runtime" by="MAIP" unit="unknown">109296</q2:measurement>
+                        <q2:measurement name="Total # of Stack bytes written" type="runtime" by="MAIP" unit="unknown">104609</q2:measurement>
+                        <q2:measurement name="Total # of Heap bytes written" type="runtime" by="MAIP" unit="unknown">4687</q2:measurement>
+                        <q2:measurement name="Avg MAR Index" type="runtime" by="MAIP" unit="unknown">0.512493</q2:measurement>
+                        <q2:measurement name="Avg Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.120788</q2:measurement>
+                        <q2:measurement name="Avg MOR Index" type="runtime" by="MAIP" unit="unknown">0.198535</q2:measurement>
+                        <q2:measurement name="Avg Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0595483</q2:measurement>
+                        <q2:measurement name="Avg Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.819505</q2:measurement>
+                        <q2:measurement name="Avg Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.368917</q2:measurement>
+                        <q2:measurement name="Avg Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.850062</q2:measurement>
+                        <q2:measurement name="Avg Bytes Per Access" type="runtime" by="MAIP" unit="unknown">3.69748</q2:measurement>
+                        <q2:measurement name="Max MAR Index" type="runtime" by="MAIP" unit="unknown">0.512493</q2:measurement>
+                        <q2:measurement name="Max Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.120788</q2:measurement>
+                        <q2:measurement name="Max MOR Index" type="runtime" by="MAIP" unit="unknown">0.198535</q2:measurement>
+                        <q2:measurement name="Max Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0595483</q2:measurement>
+                        <q2:measurement name="Max Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.819505</q2:measurement>
+                        <q2:measurement name="Max Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.368917</q2:measurement>
+                        <q2:measurement name="Max Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.850062</q2:measurement>
+                        <q2:measurement name="Max Bytes Per Access" type="runtime" by="MAIP" unit="unknown">3.69748</q2:measurement>
+                        <q2:measurement name="Min MAR Index" type="runtime" by="MAIP" unit="unknown">0.512493</q2:measurement>
+                        <q2:measurement name="Min Heap MAR Index" type="runtime" by="MAIP" unit="unknown">0.120788</q2:measurement>
+                        <q2:measurement name="Min MOR Index" type="runtime" by="MAIP" unit="unknown">0.198535</q2:measurement>
+                        <q2:measurement name="Min Heap MOR Index" type="runtime" by="MAIP" unit="unknown">0.0595483</q2:measurement>
+                        <q2:measurement name="Min Stack Ratio" type="runtime" by="MAIP" unit="unknown">0.819505</q2:measurement>
+                        <q2:measurement name="Min Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.368917</q2:measurement>
+                        <q2:measurement name="Min Heap Flow Ratio" type="runtime" by="MAIP" unit="unknown">0.850062</q2:measurement>
+                        <q2:measurement name="Min Bytes Per Access" type="runtime" by="MAIP" unit="unknown">3.69748</q2:measurement>
+                    </q2:target>
+                </q2:statistics>
+            </q2:function>
+        </q2:functions>
+        <q2:QDUGraph />
+        <q2:CallGraph />
+    </q2:application>
+    <q2:application name="CR">
+        <q2:QDUGraph>
+            <q2:channel producer="UNKNOWN_PRODUCER(CONSTANT_DATA)" consumer="main">
+                <q2:hUnMA>25620</q2:hUnMA>
+                <q2:hBytes>31746</q2:hBytes>
+                <q2:hValues>25620</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="UNKNOWN_PRODUCER(CONSTANT_DATA)" consumer="LoadData">
+                <q2:hUnMA>136054</q2:hUnMA>
+                <q2:hBytes>7583654</q2:hBytes>
+                <q2:hValues>136054</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="UNKNOWN_PRODUCER(CONSTANT_DATA)" consumer="Compute_CSD">
+                <q2:hUnMA>143</q2:hUnMA>
+                <q2:hBytes>1317</q2:hBytes>
+                <q2:hValues>143</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="Out_of_the_main_function_scope" consumer="main">
+                <q2:hUnMA>498</q2:hUnMA>
+                <q2:hBytes>16941</q2:hBytes>
+                <q2:hValues>498</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="Out_of_the_main_function_scope" consumer="LoadData">
+                <q2:hUnMA>493</q2:hUnMA>
+                <q2:hBytes>8132773</q2:hBytes>
+                <q2:hValues>493</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="Out_of_the_main_function_scope" consumer="Compute_CSD">
+                <q2:hUnMA>183</q2:hUnMA>
+                <q2:hBytes>331</q2:hBytes>
+                <q2:hValues>183</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="main" consumer="Out_of_the_main_function_scope">
+                <q2:hUnMA>64</q2:hUnMA>
+                <q2:hBytes>132</q2:hBytes>
+                <q2:hValues>64</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="main" consumer="main">
+                <q2:hUnMA>252</q2:hUnMA>
+                <q2:hBytes>7499</q2:hBytes>
+                <q2:hValues>2645</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="main" consumer="SnifferOpen">
+                <q2:hUnMA>40</q2:hUnMA>
+                <q2:hBytes>60</q2:hBytes>
+                <q2:hValues>40</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="main" consumer="RF_Start">
+                <q2:hUnMA>24</q2:hUnMA>
+                <q2:hBytes>24</q2:hBytes>
+                <q2:hValues>24</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="main" consumer="LoadData">
+                <q2:hUnMA>69</q2:hUnMA>
+                <q2:hBytes>4310</q2:hBytes>
+                <q2:hValues>69</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="main" consumer="RF_End">
+                <q2:hUnMA>12</q2:hUnMA>
+                <q2:hBytes>12</q2:hBytes>
+                <q2:hValues>12</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="RF_Start" consumer="main">
+                <q2:hUnMA>4</q2:hUnMA>
+                <q2:hBytes>4</q2:hBytes>
+                <q2:hValues>4</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="RF_Start" consumer="LoadData">
+                <q2:hUnMA>12</q2:hUnMA>
+                <q2:hBytes>12</q2:hBytes>
+                <q2:hValues>12</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="LoadData" consumer="main">
+                <q2:hUnMA>69</q2:hUnMA>
+                <q2:hBytes>201</q2:hBytes>
+                <q2:hValues>69</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="LoadData" consumer="LoadData">
+                <q2:hUnMA>2168</q2:hUnMA>
+                <q2:hBytes>18784262</q2:hBytes>
+                <q2:hValues>9078603</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="LoadData" consumer="Compute_CSD">
+                <q2:hUnMA>8192</q2:hUnMA>
+                <q2:hBytes>861700</q2:hBytes>
+                <q2:hValues>270208</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="LoadData" consumer="RF_End">
+                <q2:hUnMA>8</q2:hUnMA>
+                <q2:hBytes>8</q2:hBytes>
+                <q2:hValues>8</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="Compute_CSD" consumer="main">
+                <q2:hUnMA>132</q2:hUnMA>
+                <q2:hBytes>132</q2:hBytes>
+                <q2:hValues>132</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="Compute_CSD" consumer="Compute_CSD">
+                <q2:hUnMA>4</q2:hUnMA>
+                <q2:hBytes>128</q2:hBytes>
+                <q2:hValues>4</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="Compute_CSD" consumer="RF_End">
+                <q2:hUnMA>4</q2:hUnMA>
+                <q2:hBytes>4</q2:hBytes>
+                <q2:hValues>4</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="RF_End" consumer="main">
+                <q2:hUnMA>20</q2:hUnMA>
+                <q2:hBytes>22</q2:hBytes>
+                <q2:hValues>20</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="UNKNOWN_PRODUCER(CONSTANT_DATA)" consumer="Out_of_the_main_function_scope">
+                <q2:hUnMA>20178</q2:hUnMA>
+                <q2:hBytes>29746</q2:hBytes>
+                <q2:hValues>20178</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="UNKNOWN_PRODUCER(CONSTANT_DATA)" consumer="SnifferOpen">
+                <q2:hUnMA>38</q2:hUnMA>
+                <q2:hBytes>58</q2:hBytes>
+                <q2:hValues>38</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="UNKNOWN_PRODUCER(CONSTANT_DATA)" consumer="GetErrorString">
+                <q2:hUnMA>4</q2:hUnMA>
+                <q2:hBytes>20</q2:hBytes>
+                <q2:hValues>4</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="UNKNOWN_PRODUCER(CONSTANT_DATA)" consumer="RF_Start">
+                <q2:hUnMA>24</q2:hUnMA>
+                <q2:hBytes>24</q2:hBytes>
+                <q2:hValues>24</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="UNKNOWN_PRODUCER(CONSTANT_DATA)" consumer="RF_End">
+                <q2:hUnMA>128</q2:hUnMA>
+                <q2:hBytes>154</q2:hBytes>
+                <q2:hValues>128</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="Out_of_the_main_function_scope" consumer="Out_of_the_main_function_scope">
+                <q2:hUnMA>2027</q2:hUnMA>
+                <q2:hBytes>26445</q2:hBytes>
+                <q2:hValues>3250</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="Out_of_the_main_function_scope" consumer="SnifferOpen">
+                <q2:hUnMA>16</q2:hUnMA>
+                <q2:hBytes>40</q2:hBytes>
+                <q2:hValues>16</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="Out_of_the_main_function_scope" consumer="RF_Start">
+                <q2:hUnMA>16</q2:hUnMA>
+                <q2:hBytes>20</q2:hBytes>
+                <q2:hValues>16</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="Out_of_the_main_function_scope" consumer="RF_End">
+                <q2:hUnMA>241</q2:hUnMA>
+                <q2:hBytes>273</q2:hBytes>
+                <q2:hValues>241</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="SnifferOpen" consumer="SnifferOpen">
+                <q2:hUnMA>20</q2:hUnMA>
+                <q2:hBytes>60</q2:hBytes>
+                <q2:hValues>32</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="SnifferOpen" consumer="RF_Start">
+                <q2:hUnMA>12</q2:hUnMA>
+                <q2:hBytes>12</q2:hBytes>
+                <q2:hValues>12</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="SetEnergyDetector" consumer="GetEnergyValue">
+                <q2:hUnMA>16</q2:hUnMA>
+                <q2:hBytes>400</q2:hBytes>
+                <q2:hValues>16</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="RF_Start" consumer="RF_Start">
+                <q2:hUnMA>8</q2:hUnMA>
+                <q2:hBytes>8</q2:hBytes>
+                <q2:hValues>8</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="RF_Start" consumer="Set_RF">
+                <q2:hUnMA>4</q2:hUnMA>
+                <q2:hBytes>132</q2:hBytes>
+                <q2:hValues>4</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="RF_Start" consumer="Capture_RF">
+                <q2:hUnMA>4</q2:hUnMA>
+                <q2:hBytes>132</q2:hBytes>
+                <q2:hValues>4</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="RF_Start" consumer="RF_End">
+                <q2:hUnMA>8</q2:hUnMA>
+                <q2:hBytes>12</q2:hBytes>
+                <q2:hValues>8</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="Set_RF" consumer="Capture_RF">
+                <q2:hUnMA>4</q2:hUnMA>
+                <q2:hBytes>132</q2:hBytes>
+                <q2:hValues>132</q2:hValues>
+            </q2:channel>
+            <q2:channel producer="RF_End" consumer="RF_End">
+                <q2:hUnMA>4</q2:hUnMA>
+                <q2:hBytes>4</q2:hBytes>
+                <q2:hValues>4</q2:hValues>
+            </q2:channel>
+        </q2:QDUGraph>
+    </q2:application>
+</q2:profiles>
